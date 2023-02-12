@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+class Emploe
+{
+    public int rank { get; }
+    public bool isLeader { get; }
+    public Emploe(int rank, bool IsLeader)
+    {
+        this.rank = rank;
+        isLeader = IsLeader;
+    }
+
+}
