@@ -1,4 +1,11 @@
 ﻿using System;
+class Class
+{
+    public static void Main()
+    {
+
+    }
+}
 class Emploe
 {
     public int Rank { get; }
