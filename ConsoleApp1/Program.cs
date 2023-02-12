@@ -1,12 +1,12 @@
 ﻿using System;
 class Emploe
 {
-    public int rank { get; }
-    public bool isLeader { get; }
+    public int Rank { get; }
+    public bool IsLeader { get; }
     public Emploe(int rank, bool IsLeader)
     {
-        this.rank = rank;
-        isLeader = IsLeader;
+        this.Rank = rank;
+        this.IsLeader = IsLeader;
     }
 
 }
